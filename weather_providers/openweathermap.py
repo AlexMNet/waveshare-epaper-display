@@ -95,5 +95,9 @@ class OpenWeatherMap(BaseWeatherProvider):
         weather["temperatureMax"] = weather_data["temp"]["max"]
         weather["icon"] = self.get_icon_from_openweathermap_weathercode(weather_data["weather"][0]["id"], self.is_daytime(self.location_lat, self.location_long))
         weather["description"] = weather_data["weather"][0]["description"].title()
+        weather["summary"] = weather_data["summary"]
+        weather["sunrise"] = weather_data["sunrise"]
+        weather["sunset"] = weather_data["sunset"]
+        logging.info(weather)
         logging.debug(weather)
         return weather
