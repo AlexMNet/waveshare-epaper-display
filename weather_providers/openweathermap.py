@@ -98,6 +98,5 @@ class OpenWeatherMap(BaseWeatherProvider):
         weather["summary"] = weather_data["summary"]
         weather["sunrise"] = weather_data["sunrise"]
         weather["sunset"] = weather_data["sunset"]
-        logging.info(weather)
         logging.debug(weather)
         return weather
