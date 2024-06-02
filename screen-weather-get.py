@@ -148,6 +148,7 @@ def main():
         degrees = "°F"
 
     weather = get_weather(location_lat, location_long, units)
+    logging.info(weather)
 
     if not weather:
         logging.error("Unable to fetch weather payload. SVG will not be updated.")
@@ -170,7 +171,7 @@ def main():
         'ICON_ONE': weather["icon"],
         'WEATHER_DESC_1': weather_desc[1],
         'WEATHER_DESC_2': weather_desc[2],
-        'WEATHER_SUMMARY': weather["summary"],
+        # 'WEATHER_SUMMARY': weather["summary"],
         'TIME_NOW_FONT_SIZE': time_now_font_size,
         'TIME_NOW': time_now,
         'HOUR_NOW': datetime.datetime.now().strftime("%-I %p"),
