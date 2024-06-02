@@ -50,7 +50,8 @@
 
   <text id="textdate" x="600" y="130" style="text-anchor:middle;font-size:40px;line-height:0%;font-family:sans-serif;">DAY_ONE</text>
 
-  <text id="texttime" x="20" y="125" font-size="TIME_NOW_FONT_SIZE" style="font-weight:bold;line-height:0%;font-family:sans-serif;text-anchor:beginning">TIME_NOW</text>
+  <!-- <text id="texttime" x="20" y="125" font-size="TIME_NOW_FONT_SIZE" style="font-weight:bold;line-height:0%;font-family:sans-serif;text-anchor:beginning">TIME_NOW</text> -->
+  <text id="texttime" x="20" y="125" style="font-size:40px;font-weight:bold;line-height:0%;font-family:sans-serif;text-anchor:beginning">The Maldonados</text>
 
   <use id="customdata" href="screen-output-custom-temp.svg" />
 
