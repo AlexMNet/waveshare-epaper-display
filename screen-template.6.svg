@@ -10,7 +10,7 @@
   <rect width="800" height="480" id="rect3855" fill="white" />
 
   <g transform="scale(1.2) translate(75 165)" id="currentweather">
-    <use id="currentweathericon" href="icons/blizzard.svg" />
+    <use id="currentweathericon" href="icons/ICON_ONE.svg" />
   </g>
 
   <text id="texttime" x="20" y="45" style="font-size:40px;font-weight:bold;line-height:0%;font-family:sans-serif;text-anchor:beginning">The Maldonados</text>
