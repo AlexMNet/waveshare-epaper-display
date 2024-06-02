@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" height="480" width="800" version="1.1" id="svg3095" inkscape:version="0.92.3 (2405546, 2018-03-11)" sodipodi:docname="weather-script-preprocess_temps.svg">
+  <rect width="800" height="480" id="rect3855" fill="white" />
+
+  <g transform="scale(1.2) translate(75 165)" id="currentweather">
+    <use id="currentweathericon" href="icons/blizzard.svg" />
+  </g>
+
+  <text id="texttime" x="20" y="45" style="font-size:40px;font-weight:bold;line-height:0%;font-family:sans-serif;text-anchor:beginning">The Maldonados</text>
+  <!-- <text id="alertmessage" x="0" y="35" font-size="30px" style="font-weight:bold;font-size:30px;line-height:0%;font-family:'Nimbus Mono PS',monospace;text-anchor:beginning">ALERT_MESSAGE</text> -->
+  <text id="temphighlow" x="155" y="360" font-size="38px" style="font-size:38px;line-height:0%;font-family:sans-serif;text-anchor:middle">HIGH_ONE/LOW_ONE</text>
+  <text id="weatherdesc1" x="155" y="390" font-size="38px" style="font-size:28px;line-height:0%;font-family:sans-serif;text-anchor:middle">WEATHER_DESC_1</text>
+  <text id="weaetherdesc2" x="155" y="415" font-size="38px" style="font-size:28px;line-height:0%;font-family:sans-serif;text-anchor:middle">WEATHER_DESC_2</text>
+  <path d="m 301.08466,394.8254 v 70 h 3 v -235.5 h -3 z" id="divider" inkscape:connector-curvature="0" />
+
+  <text id="textday" x="600" y="45" style="text-anchor:middle;font-weight:600;font-size:47px;line-height:0%;font-family:sans-serif;">DAY_NAME</text>
+
+  <text id="textdate" x="600" y="100" style="text-anchor:middle;font-size:40px;line-height:0%;font-family:sans-serif;">DAY_ONE</text>
+
+  <rect width="100" height="100" x="650" y="200" id="rect3855" fill="white" />
+
+  <rect width="150" height="150" x="10" y="10" style="fill:blue;stroke:pink;stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" />
+
+
+
+</svg>
