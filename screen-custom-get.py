@@ -20,8 +20,8 @@ def main():
         try:
             response = requests.get(url, headers={"Authorization": notion_apikey})
             print(f"NOTION RESPONSE: ", {response.json()})
-        except:
-            print('Something wrong has happened')
+        except Exception as error:
+            print('Something wrong has happened', error)
 
 
     get_messages()
