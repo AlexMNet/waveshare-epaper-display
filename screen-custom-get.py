@@ -18,7 +18,7 @@ def main():
         url = ("https://api.notion.com/v1/blocks/0e8f0aeccc7b4e08b9e67fc900e45b1c/children")
         notion_apikey = os.getenv("NOTION_KEY")
         try:
-            response = requests.get(url, headers={"Authorization": f"Bearer {notion_apikey}"})
+            response = requests.get(url, headers={"Authorization": f"Bearer {notion_apikey}", "Notion-Version": "2022-06-28"})
             print(f"NOTION RESPONSE: {str(response.json())}")
         except Exception as error:
             print('Something wrong has happened', error)
