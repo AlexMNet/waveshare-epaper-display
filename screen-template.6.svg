@@ -23,4 +23,6 @@
   <text id="weaetherdesc2" x="155" y="415" font-size="38px" style="font-size:28px;line-height:0%;font-family:sans-serif;text-anchor:middle">WEATHER_DESC_2</text>
   <text id="weaethersummary" x="155" y="430" font-size="14px" style="font-size:12px;line-height:0%;font-family:sans-serif;text-anchor:middle">WEATHER_SUMMARY</text>
 
+  <use id="customdata" href="screen-output-custom-temp.svg" />
+
 </svg>

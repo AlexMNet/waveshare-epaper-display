@@ -27,9 +27,8 @@ def main():
             print('Something wrong has happened', error)
 
 
-    get_messages()
 
-    custom_value_1 = "testing...";
+    custom_value_1 = get_messages()
 
     logging.info("Updating SVG")
     output_dict = {
